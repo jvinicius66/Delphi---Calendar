@@ -1,0 +1,28 @@
+object fMain: TfMain
+  Left = 0
+  Top = 0
+  Caption = 'Calendar'
+  ClientHeight = 537
+  ClientWidth = 367
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object calMain: TCalendar
+    Align = Top
+    Date = 43785.000000000000000000
+    Size.Width = 367.000000000000000000
+    Size.Height = 361.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+  end
+  object butMain: TButton
+    Align = Center
+    Size.Width = 146.000000000000000000
+    Size.Height = 43.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = 'Add Events'
+    OnClick = butMainClick
+  end
+end
